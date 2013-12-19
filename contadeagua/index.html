@@ -4,14 +4,19 @@
 <style>
 	body {
 		background-image: url("http://hypescience.com/wp-content/uploads/2011/01/agua.jpg");
-		background-size:auto;
-		font-size: 40px;
-	}	
+		background-size:cover;
+		font-size: 30px;
+	
+	}
+		
+		
+	
+	
 	
 h1 {
 	font-size: 45px;
 	font-style: italic;
-	color: red;
+	color: white;
 	text-align: center;
 }
 ul li {
@@ -20,16 +25,21 @@ ul li {
 	padding-top:10px;
 	padding-left:40px;
 	padding-right:30px;
-	background-color:red;
+	background-color:(77,210,210);
 	font-family: "Trebuchet MS", Arial;
-	font-size:15px;
-	color:Black;
+	font-size:25px;
+	color:black;
 }
+
+
+
 </style>
 
 </head>
 
 <body>
+		
+		
 	<h1>
 		
 		Conta de Agua
@@ -40,16 +50,18 @@ ul li {
 		<li>Ultimas Contas</li>
 		<li>Pagamento</li>
 		<li>Duvidas</li>
+		<li> <input type="search" name="d"></li>
 	</ul>
+		
 <fieldset>
 	
 
 <form action="programa.php" method="post">
-	<h2>Mês um</h2>
+	<h2>Primeira Conta</h2>
 	<input  type="text" name="a"/>
-	<h2>Mês dois</h2>
+	<h2>Segunda Conta</h2>
 	<input type="text" name="b"/>
-	<h2>Mês tres</h2>
+	<h2>Terceira Conta</h2>
 	<input type="text" name="c"/>
 
 	<input type="submit" value="enviar"/>
@@ -58,5 +70,6 @@ ul li {
 
 </fieldset>
 <address align="center"> Cleber e Rodrigo</address>
+
 </body>
 </html>
