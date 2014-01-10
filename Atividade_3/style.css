@@ -1,0 +1,23 @@
+body{
+    background-image: url("http://download.ultradownloads.com.br/wallpaper/116841_Papel-de-Parede-Fogo-na-clave-de-sol_1280x1024.jpg");
+    margin-left: 500px;
+    color: white;
+}
+fieldset{
+    
+    width: 250px;
+    background-color:rgb(243,243,243);
+    border-color: red;
+    border-radius: 10px 10px 10px 10px;
+    
+    
+}
+.Vermelho{
+    color:red;
+}
+.Branco{
+    color: white;
+}
+.Rosa{
+    color: pink;
+}
